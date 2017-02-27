@@ -12,8 +12,6 @@ class Process {
 		$this->s = new Storage;
 	}
 	
-	
-	
 	function start() {
 		//$lines = explode("\n", $this->content);
 		$lines = $this->content;

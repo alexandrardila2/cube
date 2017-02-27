@@ -4,8 +4,11 @@ while($line = fgets($_fp)) {
    $l .= $line;
 }
 
+
 $cp = new Process($l);
 $cp->start();
-$cp->s->print2();
+
+$pp = new Print2();
+$pp->show($cp->a);
 
 ?>
